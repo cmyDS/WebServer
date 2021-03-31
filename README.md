@@ -17,6 +17,8 @@ Linux下基于模拟Proactor的C ++轻量级Web服务器，目前仅支持GET方
 * 编辑器：Vim
 * 压测工具：WebBench
 
+## 实现框架
+
 ## 压力测试
 ![image-webbench](https://github.com/markparticle/WebServer/blob/master/readme.assest/%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95.png)
 ```bash
@@ -38,7 +40,6 @@ Linux下基于模拟Proactor的C ++轻量级Web服务器，目前仅支持GET方
 * 添加同步/异步日志系统，记录服务器运行状态
 >* 利用单例模式与阻塞队列实现异步的日志系统
 * 实现循环缓冲区
-* 基于小根堆实现的定时器，关闭超时的非活动连接；
 * 实现web端用户注册、登录功能
 * 利用RAII机制实现了数据库连接池，减少数据库连接建立与关闭的开销
 
