@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# WebServer
-=======
 # A C++ Lightweight Web Server
 Linux下基于模拟Proactor的C ++轻量级Web服务器，目前仅支持GET方法处理静态资源，通过Webbench压力测试可以实现上万的并发连接数据交换
 
@@ -46,4 +43,3 @@ Linux下基于模拟Proactor的C ++轻量级Web服务器，目前仅支持GET方
 * 实现web端用户注册、登录功能
 * 利用RAII机制实现了数据库连接池，减少数据库连接建立与关闭的开销
 
->>>>>>> f599489dc90b3a445bcb175fdb8301269f2d0825
